@@ -1,11 +1,11 @@
-About r-paws.cost.management
-============================
+About r-paws.cost.management-feedstock
+======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.cost.management-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/paws-r/paws
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-paws.cost.management-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to 'Amazon Web Services' cost management services, including cost and usage reports, budgets, pricing, and more <https://aws.amazon.com/>.
 
