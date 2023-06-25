@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.cost.management_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.cost.management/paws.cost.management_{{ version }}.tar.gz
-  sha256: c2bce0e40b138271c6b069ab9efd4140931ee7916c6a08b1f64775b35d33f466
+  sha256: b41d00b1e97fb037a8130bc4dca91c16faf6eeda76277a81366a48d139471a6c
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
