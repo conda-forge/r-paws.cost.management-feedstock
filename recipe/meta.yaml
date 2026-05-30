@@ -1,4 +1,4 @@
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.cost.management_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.cost.management/paws.cost.management_{{ version }}.tar.gz
-  sha256: 17b4f7235627602f4f2fa789120d6cb1813bc4277b872a3bef00ac6987139a07
+  sha256: 1af73193f2ffd3e971f32eb058c4ac43579269242e053a55bc76aef348c7de26
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
